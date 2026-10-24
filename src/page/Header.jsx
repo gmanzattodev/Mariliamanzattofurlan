@@ -43,7 +43,10 @@ export default function Header({ menu, setMenu, mobile, setMobile }) {
         aria-label="Voltar ao início"
         onClick={fecharMenu}
       >
-        <img src="/logo.png" alt="Marília Manzatto Foto e Vídeo" />
+        <img
+          src={`${import.meta.env.BASE_URL}logo.png`}
+          alt="Marília Manzatto Foto e Vídeo"
+        />
       </a>
 
       <nav
