@@ -1,0 +1,32 @@
+.Sobre{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: url("../images/sobre.webp") center center no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.info-sobre{
+    color: #fff;
+    padding-left: 5rem;
+}
+.info-sobre p, .info-sobre h3{
+    font-family: "Montserrat", sans-serif;
+}
+.info-sobre h3{
+    letter-spacing: 2px;
+    font-size: clamp(1rem, 2vw, 1.3rem);
+    color: #cccbcb;
+}
+.info-sobre h2{
+    font-size: clamp(2rem, 6vw, 4rem);
+    font-family: "Bodoni Moda", serif;
+    line-height: 72px;
+}
+.info-sobre h2 span {
+    color: #ff7900;
+}
+.info-sobre p{
+    letter-spacing: .5px;
+    margin-top: 30px;
+}
