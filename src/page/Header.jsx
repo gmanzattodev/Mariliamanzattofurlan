@@ -47,7 +47,6 @@ export default function Header({ menu, setMenu, mobile, setMobile }) {
           src={`${import.meta.env.BASE_URL}logo.png`}
           alt="Marília Manzatto Foto e Vídeo"
         />
-        <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Marília Manzatto Foto e Vídeo"/>
       </a>
 
       <nav
