@@ -18,23 +18,7 @@ gsap.registerPlugin(SplitText, useGSAP, ScrollTrigger);
 function App() {
   const [menu, setMenu] = useState(false);
   const [mobile, setMobile] = useState(window.innerWidth <= 1000);
-  const [animacaoFixed, setAnimacaoFixed] = useState(false);
 
-  useEffect(() => {
-    const AnimationFixed = () => {
-      if (window.scrollY > 900) {
-        setAnimacaoFixed(true);
-      } else {
-        setAnimacaoFixed(false);
-      }
-    };
-
-    window.addEventListener("scroll", AnimationFixed);
-
-    return () => {
-      window.removeEventListener("scroll", AnimationFixed);
-    };
-  }, []);
 
   return (
     <>
