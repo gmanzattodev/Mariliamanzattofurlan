@@ -4,14 +4,14 @@ import { SplitText } from "gsap/SplitText";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-import Header from "./page/Header";
-import Hero from "./page/Hero";
+import Header from "../../page/Loja/Header";
+import Hero from "../../page/Loja/Hero";
 import "./App.css";
-import Sobre from "./page/Sobre";
-import Ensaios from "./page/Ensaios";
-import Revelacao from "./page/Revelacao";
-import Galeria from "./page/Galeria"
-import Contato from "./page/Contato";
+import Sobre from "../../page/Loja/Sobre";
+import Ensaios from "../../page/Loja/Ensaios";
+import Revelacao from "../../page/Loja/Revelacao";
+import Galeria from "../../page/Loja/Galeria"
+import Contato from "../../page/Loja/Contato";
 
 gsap.registerPlugin(SplitText, useGSAP, ScrollTrigger);
 

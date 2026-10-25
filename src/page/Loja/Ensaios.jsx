@@ -1,10 +1,10 @@
-import Card from "../assets/components/cards";
-import gestante from "../assets/images/gestante.jpg";
-import NEWBORN from "../assets/images/newborn.webp";
-import SMASH from "../assets/images/smash.webp";
-import ACOMPANHAMENTO from "../assets/images/acompanhamento.jpg";
-import FAMILIA from "../assets/images/familia.webp";
-import "../assets/css/ensaios.css"
+import Card from "../../assets/components/cards";
+import gestante from "../../assets/images/gestante.jpg";
+import NEWBORN from "../../assets/images/newborn.webp";
+import SMASH from "../../assets/images/smash.webp";
+import ACOMPANHAMENTO from "../../assets/images/acompanhamento.jpg";
+import FAMILIA from "../../assets/images/familia.webp";
+import "../../assets/css/ensaios.css"
 
 export default function Ensaios(){
 

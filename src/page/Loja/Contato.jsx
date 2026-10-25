@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../assets/css/contato.css";
+import "../../assets/css/contato.css";
 
 export default function Contato() {
   const [nome, setNome] = useState("");

@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { gsap } from "gsap";
 import { SplitText } from "gsap/SplitText";
 import { useGSAP } from "@gsap/react";
-import "../assets/css/hero.css";
+import "../../assets/css/hero.css";
 
 export default function Hero({ mobile }) {
   const heroRef = useRef(null);

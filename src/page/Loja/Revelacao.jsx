@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../assets/css/revelacao.css";
+import "../../assets/css/revelacao.css";
 
 const tamanhosDisponiveis = ["10x15", "13x18", "15x21", "20x25", "20x30"];
 

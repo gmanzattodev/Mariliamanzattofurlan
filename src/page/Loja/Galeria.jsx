@@ -1,13 +1,13 @@
 import { useState, useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
-import "../assets/css/galeria.css";
+import "../../assets/css/galeria.css";
 
-import gestante from "../assets/images/gestante.jpg";
-import newborn from "../assets/images/newborn.webp";
-import smash from "../assets/images/smash.webp";
-import acompanhamento from "../assets/images/acompanhamento.jpg";
-import familia from "../assets/images/familia.webp";
+import gestante from "../../assets/images/gestante.jpg";
+import newborn from "../../assets/images/newborn.webp";
+import smash from "../../assets/images/smash.webp";
+import acompanhamento from "../../assets/images/acompanhamento.jpg";
+import familia from "../../assets/images/familia.webp";
 
 const fotos = [
   { id: 1, imagem: gestante, categoria: "Gestantes", titulo: "A espera" },

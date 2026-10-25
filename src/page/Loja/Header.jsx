@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "../assets/css/header.css";
+import "../../assets/css/header.css";
 
 export default function Header({ menu, setMenu, mobile, setMobile }) {
   const [animacao, setAnimacao] = useState(false);
